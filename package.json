@@ -1,6 +1,6 @@
 {
   "name": "bbb-webrtc-sfu",
-  "version": "2.17.0-beta.6",
+  "version": "2.17.0-beta.4",
   "private": true,
   "engines": {
     "npm": ">=6.0.0",
@@ -14,14 +14,14 @@
     "postinstall": "cd node_modules/sip.js/src/Grammar && mkdir -p dist && pegjs --extra-options-file peg.json src/Grammar.pegjs dist/Grammar.js"
   },
   "dependencies": {
-    "@livekit/rtc-node": "0.13.6",
+    "@livekit/rtc-node": "^0.12.1",
     "bbb-sfurec-adapter": "git+https://github.com/mconf/bbb-sfurec-adapter.git#v1.0.0-dev.6",
     "config": "3.3.12",
     "express": "^4.21.2",
     "ipaddr.js": "1.9.1",
     "js-yaml": "4.1.0",
     "kurento-client": "github:mconf/kurento-client-js#v6.18.0-mconf.1",
-    "livekit-server-sdk": "2.10.2",
+    "livekit-server-sdk": "^2.9.3",
     "mcs-js": "github:mconf/mcs-js#v0.0.21",
     "mediasoup": "github:mconf/mediasoup#3.14.14-bbb.1",
     "mediasoup-client": "3.7.16",

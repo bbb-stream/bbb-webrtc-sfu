@@ -6,17 +6,6 @@ Final releases will consolidate all intermediate changes in chronological order.
 
 For previous changes, see the [release notes](https://github.com/bigbluebutton/bbb-webrtc-sfu/releases).
 
-### v2.17.0-beta.6
-
-* fix(audio): TLO callerID matching is too strict
-* build: livekit-server-sdk@2.10.2 (pinned)
-* build: @livekit/rtc-node@0.13.6 (pinned)
-
-### v2.17.0-beta.5
-
-* fix(freeswitch): UA fails due to unescaped `"/"` or deviant URI user
-* refactor(livekit): bump some egress logs to info
-
 ### v2.17.0-beta.4
 
 * feat(livekit): add support for recordFullDurationMedia=false
